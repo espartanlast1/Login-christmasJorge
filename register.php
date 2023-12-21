@@ -10,7 +10,8 @@
     <img src="images/holy-family-christmas-mary-joseph-and-baby-jesus-christ-png.png" alt="logo">
     <h2>JMJ</h2>
     <p>¿Ya tiene cuenta? <a href="index.php"><u>Iniciar sesión</u></a></p>
-    <form class="registration-form">
+    <form class="registration-form" action="register_logic.php" method="post">
+        <input type="text" id="username" name="username" placeholder="Nombre de usuario" required><br>
         <input type="text" id="name" name="name" placeholder="Nombre" required><br>
         <input type="text" id="last-name" name="last-name" placeholder="Apellido" required><br>
         <input type="number" id="age" name="age" placeholder="Edad" required><br>
